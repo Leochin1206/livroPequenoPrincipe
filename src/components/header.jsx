@@ -60,10 +60,10 @@ export function Header() {
 
                 {dropdownOpen && (
                     <ul className="absolute right-0 bg-white w-40 shadow-lg z-50">
-                        <li><Link to="/" className="block px-4 py-2 hover:bg-gray-200">Home</Link></li>
-                        <li><Link to="/autor" className="block px-4 py-2 hover:bg-gray-200">Autor</Link></li>
-                        <li><Link to="/publicoalvo" className="block px-4 py-2 hover:bg-gray-200">Público Alvo</Link></li>
-                        <li><Link to="/colega" className="block px-4 py-2 hover:bg-gray-200">Colega</Link></li>
+                        <li><Link to="/" className="text-center block px-4 py-2 hover:bg-gray-200">Home</Link></li>
+                        <li><Link to="/autor" className="text-center block px-4 py-2 hover:bg-gray-200">Autor</Link></li>
+                        <li><Link to="/publicoalvo" className="text-center block px-4 py-2 hover:bg-gray-200">Público Alvo</Link></li>
+                        <li><Link to="/colega" className="text-center block px-4 py-2 hover:bg-gray-200">Colega</Link></li>
                     </ul>
                 )}
             </div>
