@@ -42,7 +42,7 @@ export function Header() {
     const currentBg = backgroundMap[location.pathname] || bg1;
 
     return (
-        <header className="relative w-full h-[240px] overflow-hidden z-50">
+        <header className="relative w-full h-[400px] overflow-hidden z-50">
             <img
                 src={currentBg}
                 alt="Fundo"
